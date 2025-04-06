@@ -2,7 +2,7 @@ const request = require('supertest');
 const http = require('http');
 
 // Import your function handler from HelloWorld/index.js
-const handler = require('../HelloWorld/index');
+const handler = require('../HelloWorld/index'); // Adjust the path if necessary
 
 // Create a simple HTTP server that will call the Azure Function handler
 const app = http.createServer((req, res) => {
