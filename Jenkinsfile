@@ -6,7 +6,7 @@ pipeline {
         AZURE_CLIENT_ID = credentials('AZURE_CLIENT_ID')
         AZURE_CLIENT_SECRET = credentials('AZURE_CLIENT_SECRET')
         RESOURCE_GROUP = 'cicd1'
-        FUNCTION_APP_NAME = 'function1'
+        FUNCTION_APP_NAME = 'skurianfunction2025'
     }
 
     stages {
