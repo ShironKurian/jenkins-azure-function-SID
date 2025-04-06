@@ -1,16 +1,29 @@
 {
-  "name": "",
+  "name": "helloworldfunction",
   "version": "1.0.0",
-  "description": "",
   "main": "src/functions/*.js",
   "scripts": {
     "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "test": "jest"
   },
   "dependencies": {
     "@azure/functions": "^4.0.0"
   },
   "devDependencies": {
-    "azure-functions-core-tools": "^4.x"
-  }
+    "azure-functions-core-tools": "^4.x",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShironKurian/jenkins-azure-function-SID.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShironKurian/jenkins-azure-function-SID/issues"
+  },
+  "homepage": "https://github.com/ShironKurian/jenkins-azure-function-SID#readme",
+  "description": ""
 }
